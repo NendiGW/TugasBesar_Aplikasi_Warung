@@ -1,49 +1,51 @@
+
 body {
-    margin: 50PX;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-position: center;
-    background-size: cover;
-    background-position: center;
-    background-color: #c8c8c8;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-  }
-  
-  .login-container {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    text-align: left;
-  }
-  
-  .login-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .input-field {
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .login-button {
-    background-color: #876740;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .login-button:hover {
-    background-color: #2980b9;
+  background-color: #C8C8C8;
+}
+
+.login-container {
+  margin-left: 40px;
+  color: #fff;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+  font-size: 14px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+input[type="text"], input[type="number"],input[type="password"] {
+  width: 307px;
+height: 30px;
+border-radius: 10px;
+opacity: 0.3;
+background: #FFF;
+}
+
+.header-regist {
+  margin-left: 40px;
+}
+
+.login-button {
+  width: 307px;
+height: 44px;
+border-radius: 20px;
+opacity: 0.8;
+background: #876740;
+color: #fff;
+text-transform: uppercase;
+font-style: 600;
+font-size: 16px;
+margin-top: 35px;
+}
+
+  @media (max-width: 768px) {
+
   }
   
