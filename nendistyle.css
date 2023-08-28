@@ -32,6 +32,10 @@ background: #FFF;
   margin-left: 40px;
 }
 
+.text-footer {
+  margin-left: 50px;
+}
+
 .login-button {
   width: 307px;
 height: 44px;
