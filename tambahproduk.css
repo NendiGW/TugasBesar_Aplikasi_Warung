@@ -10,7 +10,10 @@
 background: #5A5A5A;
 
 }
-
+.kalimat {
+    margin-top: 250px;
+    text-align: center;
+}
 .kembali {
     margin-top: 20px;
     margin-left: 20px;
@@ -75,6 +78,16 @@ text-align: center;
   border: none;
   margin-left: 40px;
   }
+
+.minuman {
+    color: #FFF;
+text-align: center;
+
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
 @media (max-width: 768px) {
   
