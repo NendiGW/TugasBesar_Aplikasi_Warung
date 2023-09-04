@@ -85,6 +85,19 @@ margin-bottom: 20px;
 ::placeholder {
     font-size: 21px
 }
+
+.items {
+    text-align: center;
+    font-weight: 800;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 220px;
+} 
+
+.items p {
+    color: #000;
+    font-size: 8px;
+}
 @media (max-width: 768px) {
   
     
